@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h> // For exit()
   
-int main()
+void C_GetFunctionList()
 {
     FILE *fptr;
   
@@ -27,5 +27,4 @@ int main()
     }
   
     fclose(fptr);
-    return 0;
 }
